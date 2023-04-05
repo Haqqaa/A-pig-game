@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.chel {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgba(5, 5, 5, 0.75),rgba(5, 5, 5, 0.75)), url(/PigGame-main/david-marcu-78A265wPiO4-unsplash.jpg);
+}
+
+.display {
+    box-shadow: 0px 4px 8px rgba(227, 227, 227, 0.2);
+    background-color: #fff;
+    color: black;
+    height: 68%;
+    width: 58%;
+    position: absolute;
+    top: 15%;
+    left: 21%;
+    text-align: center;
+}
+
+
+
+.sidebyside {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.sidebyside li {
+    display: inline-block;
+    margin-left: 2rem;
+    padding: 30px;
+}
+
+
+.sidebyside li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color: black;
+}
+
+.sidebyside li img {
+    height: 30px;
+    transform: translateY(26%);
+}
+
+.money{
+    font-weight: 200;
+}
+
+
+.center-score {
+    font-size: 100px;
+    color: #FF3535;
+    font-weight: 200;
+}
+
+
+.borderr {
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color:#FF3535;
+    color: #fff;
+    display: inline-block;
+}
+
+.sidebyside2 {
+    list-style: none;
+}
+
+.sidebyside2 li {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+
+.sidebyside2 li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color: black;
+}
+
+.sidebyside2 li img {
+    height: 30px;
+    transform: translateY(26%);
+}
+
+
+.dice {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
